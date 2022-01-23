@@ -17,6 +17,7 @@ class ErrorBoundary extends Component {
       setTimeout(() => this.setState({ redirect: true }), 5000);
     }
   }
+
   render() {
     if (this.state.hasError) {
       return (

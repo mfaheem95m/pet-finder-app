@@ -1,10 +1,15 @@
 import React from "react"
 import "./App.css"
+import { useState } from "react/cjs/react.development";
 import {BrowserRouter as Router,Route,Switch,Link} from "react-router-dom"
 import SearchParams from "./SearchParams";
 import Details from "./Details";
+import ThemeContext from "./ThemeContext";
 const App = () => {
+  const theme = useState("darkblue");
+
   return (
+    <ThemeContext.Provider value = {theme}>
     <div>
       <Router>
         <header>
@@ -26,6 +31,7 @@ const App = () => {
       </Router>
 
     </div>
+    </ThemeContext.Provider>
   )
 };
 
