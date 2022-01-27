@@ -4,6 +4,7 @@ import { useState,useEffect,useContext } from "react"
 import useBreedList from "./useBreedList";
 import Results from "./Results";
 import ThemeContext from "./ThemeContext";
+import { baseUrl } from './constant';
 const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
 
 
@@ -22,7 +23,7 @@ const SearchParams = () => {
 
   async function requestPets() {
     const res = await fetch(
-      `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`
+      `${baseUrl}animal=${animal}&location=${location}&breed=${breed}`
     );
     const json = await res.json();
 
