@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useState,useEffect,useContext } from 'react/cjs/react.development';
+import { useState,useEffect,useContext } from "react"
 import useBreedList from "./useBreedList";
 import Results from "./Results";
 import ThemeContext from "./ThemeContext";

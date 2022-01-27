@@ -1,6 +1,6 @@
 import React from "react"
 import "./App.css"
-import { useState } from "react/cjs/react.development";
+import { useState } from "react"
 import {BrowserRouter as Router,Route,Switch,Link} from "react-router-dom"
 import SearchParams from "./SearchParams";
 import Details from "./Details";
