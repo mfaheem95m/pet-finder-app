@@ -11,7 +11,7 @@ class Carousel extends Component {
   };
 
   static defaultProps = {
-    images: ["http://pets-images.dev-apis.com/pets/none.jpg"],
+    images: ["https://pets-images.dev-apis.com/pets/none.jpg"],
   };
 
   render() {

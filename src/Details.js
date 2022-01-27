@@ -19,7 +19,7 @@ class Details extends Component {
     this.setState(Object.assign({ loading: false }, json.pets[0]));
   }
   toggleModal = () => this.setState({ showModal: !this.state.showModal });
-  adopt = () => (window.location = "http://bit.ly/pet-adopt");
+  adopt = () => (window.location = "https://bit.ly/pet-adopt");
   render() {
     console.log(this.state);
 
