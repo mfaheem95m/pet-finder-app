@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# A Pet Finder App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is Built with React v17 with latest features like React Hooks, State Management with Context API  
+
+### Demo [pet-finder-app](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
