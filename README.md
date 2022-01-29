@@ -2,10 +2,12 @@
 
 A RealTime Pet Finder App using 
 
-Pet Finder API
-Latest React v17
-React Hooks
-State Management With Context API
+<ul>
+  <li>Pet Finder API</li>
+  <li>Latest React v17</li>
+  </li>React Hooks</li>
+  <li>State Management With Context API  </li>
+</ul>
 
 ### Demo [pet-finder-app](https://suspicious-joliot-89d6df.netlify.app/).
 
