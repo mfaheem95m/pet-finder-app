@@ -5,7 +5,7 @@ A RealTime Pet Finder App using
 <ul>
   <li>Pet Finder API</li>
   <li>Latest React v17</li>
-  </li>React Hooks</li>
+  <li>React Hooks</li>
   <li>State Management With Context API  </li>
 </ul>
 
